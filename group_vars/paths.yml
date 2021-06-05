@@ -1,12 +1,12 @@
 # Common paths and names
-oracle_home: '{{ oracle_base }}/middleware/oracle_home'
-domain_home: '{{ oracle_base }}/projects/domains/{{ domain_name }}'
-java_home: '{{ oracle_base }}/java/jdk'
-nm_home: '{{ oracle_base }}/projects/nodemanager'
+oracle_home: '{{ oracle_base }}/weblogic'
+domain_home: '{{ oracle_base }}/weblogic/user_projects/domains/Mitratech'
+java_home: '{{ oracle_base }}/opt/oracle/jdk1.8.0_271/bin/java'
+nm_home: '{{ oracle_base }}/weblogic/user_projects/domains/Mitratech/nodemanager'
 
 # Temp directory
 tmp_dir: '/tmp/wls'
 
 # For WLST
-oracle_common: '{{ oracle_home }}/oracle_common'
-wls_bin: '{{ oracle_common }}/common/bin'
+oracle_common: '{{ oracle_home }}/weblogic/oracle_common'
+wls_bin: '{{ oracle_common }}/weblogic/wlserver/common/bin'
