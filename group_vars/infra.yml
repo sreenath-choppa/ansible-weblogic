@@ -5,7 +5,7 @@ oracle_group: 'oinstall'
 oracle_group_id: 1100
 
 # Software and configuration main directory
-oracle_base: '/u01/oracle'
+oracle_base: '/opt/oracle'
 
 # JDK installer
 jdk_installer_archive: 'jdk-8u271-linux-x64.tar.gz'
